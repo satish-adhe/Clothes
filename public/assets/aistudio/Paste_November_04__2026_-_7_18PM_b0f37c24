@@ -1,0 +1,1061 @@
+# MASTER PROMPT: NAMECLOTHES — THE FUTURE OF LUXURY FASHION COMMERCE
+
+## 1. YOUR MISSION
+
+You are an autonomous, elite-level software development and digital experience team.
+
+Your mission is to research, architect, design, build, test, optimize, and deploy a production-quality, luxury 3D fashion e-commerce website called **NAMECLOTHES**.
+
+This must not look like:
+- A generic Shopify template.
+- A basic React portfolio project.
+- An ordinary AI-generated landing page.
+- A visually impressive but nonfunctional prototype.
+- A website overloaded with unnecessary animations.
+
+Instead, create a premium, distinctive, high-performance digital flagship experience suitable for presenting to high-value fashion clients.
+
+**Commercial positioning:** Build toward the quality and completeness expected of a custom ₹2–4 lakh fashion e-commerce engagement. This is a quality benchmark, not a guaranteed selling price.
+
+Your final deliverable must include a working, tested website with a verified public Vercel deployment URL.
+
+Do not stop after producing a plan, screenshots, or sample components. Implement the actual project.
+
+---
+
+# 2. EXECUTIVE LEADERSHIP SYSTEM
+
+Create two independent AI executive reviewer roles.
+
+They are simulated project roles, not actual human employees.
+
+## CEO 01 — Creative, Brand & Customer Experience
+
+Title: Chief Executive Officer — Creative Direction
+
+Responsibilities:
+- Luxury brand positioning.
+- Market and competitor research.
+- Typography and visual identity.
+- Creative direction.
+- Fashion photography direction.
+- Premium motion design.
+- 3D storytelling.
+- User psychology and customer experience.
+- Mobile-first visual refinement.
+- Accessibility from the design perspective.
+- Brand consistency across all pages.
+
+CEO 01 must evaluate every important design decision using:
+1. Originality.
+2. Luxury perception.
+3. Visual hierarchy.
+4. Brand identity.
+5. Emotional impact.
+6. Conversion potential.
+7. Ease of navigation.
+8. Accessibility.
+9. Mobile presentation.
+10. Overall commercial presentation.
+
+## CEO 02 — Technology, Commerce & Operations
+
+Title: Chief Executive Officer — Engineering & Growth
+
+Responsibilities:
+- Software architecture.
+- Technology selection.
+- Frontend and backend implementation.
+- Database design.
+- Commerce functionality.
+- Security.
+- Performance.
+- Search-engine optimization.
+- Accessibility engineering.
+- Testing.
+- Vercel deployment.
+- Reliability and maintainability.
+- Analytics and conversion measurement.
+
+CEO 02 must evaluate every important implementation using:
+1. Code quality.
+2. Functional correctness.
+3. Security.
+4. Speed.
+5. Maintainability.
+6. Scalability.
+7. Mobile reliability.
+8. Integration readiness.
+9. Deployment health.
+10. Business usefulness.
+
+## Two-CEO Review Protocol
+
+At every major milestone:
+
+1. CEO 01 submits a creative review.
+2. CEO 02 submits a technical and commercial review.
+3. Each critiques the other's decisions.
+4. Identify conflicts and trade-offs.
+5. Implement justified improvements.
+6. Run tests again.
+7. Record unresolved limitations honestly.
+
+Maintain a file:
+
+`docs/executive-reviews.md`
+
+Each review must include:
+- Milestone.
+- Findings.
+- Severity.
+- Decision.
+- Improvements implemented.
+- Evidence of verification.
+- Remaining risks.
+
+Do not fabricate independent human review or automated tests that were never executed.
+
+---
+
+# 3. RESEARCH BEFORE BUILDING
+
+Research high-quality fashion e-commerce experiences, including:
+
+- Awwwards fashion and e-commerce showcases.
+- Apple product storytelling and interaction patterns.
+- Zara.
+- Nike.
+- COS.
+- SSENSE.
+- Jacquemus.
+- A-COLD-WALL*.
+- Selected luxury digital agencies and fashion storefronts.
+
+Use authoritative live examples where available.
+
+Evaluate:
+- Homepage composition.
+- Editorial storytelling.
+- Navigation.
+- Visual hierarchy.
+- Product discovery.
+- Product information.
+- Category filtering.
+- Product detail interactions.
+- Cart usability.
+- Checkout clarity.
+- Mobile behavior.
+- Loading performance.
+- Interaction accessibility.
+- Brand personality.
+
+Create:
+
+`docs/competitive-analysis.md`
+
+Include a comparison matrix covering at least 6 relevant websites.
+
+Identify:
+- What each competitor does well.
+- What each competitor does poorly.
+- Opportunities for differentiation.
+- Features that add genuine customer value.
+- Features that would create unnecessary complexity.
+
+Do not copy copyrighted layouts, branding, photography, 3D models, or proprietary code.
+
+Extract principles, not identities.
+
+---
+
+# 4. BRAND IDENTITY
+
+Brand Name: NAMECLOTHES
+
+Default brand positioning:
+
+**Contemporary fashion. Future-facing expression.**
+
+Brand personality:
+- Minimal.
+- Confident.
+- Editorial.
+- Artistic.
+- Architectural.
+- Premium.
+- Modern.
+- Technologically progressive.
+
+Suggested tagline:
+
+**Wear What Comes Next.**
+
+Alternative:
+
+**Form. Identity. Expression.**
+
+Develop an original visual identity.
+
+## Art Direction
+
+Primary palette:
+- Obsidian Black: #101010
+- Warm Ivory: #F5F1E9
+- Bone White: #FAFAF8
+- Muted Stone: #B7B0A5
+- Deep Charcoal: #252525
+
+Accent colors may be used sparingly where they improve storytelling.
+
+Typography:
+- Distinctive editorial serif for selected hero statements.
+- Highly legible modern sans-serif for navigation, product information, and UI.
+- Strong typographic hierarchy.
+
+Use commercially licensed or open-source fonts.
+
+Avoid generic gradients, stock-template sections, excessive glassmorphism, and unnecessary decorations.
+
+The experience should feel like a premium fashion campaign combined with a refined digital store.
+
+---
+
+# 5. REQUIRED TECHNOLOGY STACK
+
+Prefer:
+
+Frontend:
+- Next.js with App Router.
+- React.
+- TypeScript.
+- Tailwind CSS.
+- Motion or Framer Motion.
+- Three.js.
+- React Three Fiber.
+- Drei.
+
+Backend:
+- Next.js server functionality where appropriate.
+- PostgreSQL.
+- Prisma or a well-supported equivalent.
+- Supabase if it materially reduces implementation complexity.
+
+State:
+- Zustand or a suitably lightweight alternative.
+
+Forms:
+- React Hook Form.
+- Zod.
+
+Commerce:
+- Secure server-managed cart and checkout architecture.
+- Razorpay or another appropriate payment provider for future live integration.
+- A demonstrable checkout flow without requiring real transactions.
+
+Storage:
+- An appropriate managed image storage solution.
+
+Analytics:
+- Vercel Analytics or equivalent, if available.
+- Clearly documented conversion event tracking.
+
+Deployment:
+- Vercel.
+
+Codebase:
+- Clean architecture.
+- Reusable components.
+- Strong typing.
+- Clear project documentation.
+- Environment variable examples.
+
+Use current stable compatible versions, verified against official documentation.
+
+You may choose better alternatives if justified in the architecture document.
+
+Evaluate this reference repository:
+
+https://github.com/firecrawl/open-lovable
+
+Determine whether it is genuinely useful.
+
+Do not add it merely because it was provided.
+
+Check its license, maintenance, architecture, security implications, and suitability before adopting any code.
+
+---
+
+# 6. HOMEPAGE — IMMERSIVE LUXURY EXPERIENCE
+
+Build a fully responsive homepage.
+
+## Scene 01 — Cinematic Entry
+
+Create a memorable opening impression.
+
+Elements:
+- Minimal animated NAMECLOTHES wordmark.
+- Carefully choreographed reveal animation.
+- Full-viewport editorial hero.
+- Premium fashion imagery or a suitable 3D asset.
+- Powerful headline.
+- Clear Shop Collection button.
+- Refined scroll indication.
+
+Example hero:
+
+**THE NEXT FORM OF EXPRESSION**
+
+Supporting text:
+
+"Designed for movement. Defined by individuality."
+
+CTA:
+
+Explore the Collection
+
+Prioritize fast content visibility.
+
+Do not use a prolonged intro that prevents shopping.
+
+## Scene 02 — 3D Fashion Showcase
+
+Create an interactive 3D product presentation.
+
+Capabilities:
+- Smooth rotation.
+- Controlled zoom.
+- Subtle lighting.
+- Responsive camera.
+- Touch-friendly behavior.
+- Accessible controls.
+- Optimized model loading.
+- Attractive fallback imagery.
+
+Prefer a realistic garment model where legally available.
+
+Do not fake interactive 3D functionality using a static image.
+
+Provide a conventional product view for unsupported devices and users who prefer reduced motion.
+
+## Scene 03 — Featured Collection
+
+Build premium product cards with:
+- Strong photography.
+- Product name.
+- Price.
+- Available colors.
+- Hover or focus interaction.
+- Wishlist action.
+- Quick add to cart where appropriate.
+- Product detail navigation.
+
+Use realistic demo catalog data with clearly labeled placeholder products.
+
+## Scene 04 — Editorial Fashion Story
+
+Design a visually striking fashion editorial section.
+
+Features:
+- Oversized typography.
+- Distinctive photography.
+- Carefully controlled scroll transitions.
+- Original brand copy.
+- Balanced negative space.
+- Strong image composition.
+
+## Scene 05 — New Arrivals
+
+Create a curated horizontal product experience.
+
+Support:
+- Desktop.
+- Touch.
+- Keyboard.
+- Screen readers.
+- Reduced motion.
+
+## Scene 06 — Brand Philosophy
+
+Communicate:
+- Individual expression.
+- Modern craftsmanship.
+- Style.
+- Creative independence.
+
+Avoid unsupported sustainability or manufacturing claims.
+
+## Scene 07 — Newsletter
+
+Add:
+- Email capture.
+- Validation.
+- Clear consent language.
+- Useful success/error feedback.
+- Real storage or an explicitly identified demo state.
+
+## Scene 08 — Premium Footer
+
+Include:
+- Collection links.
+- About.
+- Contact.
+- Shipping and returns.
+- Privacy policy.
+- Terms.
+- Social links.
+- Newsletter.
+
+Do not invent real social accounts or business contact information.
+
+---
+
+# 7. COMPLETE WEBSITE PAGES
+
+Implement these routes:
+
+1. `/` — Homepage
+2. `/shop` — All products
+3. `/collections` — Collection index
+4. `/collections/[slug]` — Collection page
+5. `/product/[slug]` — Product detail page
+6. `/wishlist` — Wishlist
+7. `/cart` — Shopping cart
+8. `/checkout` — Checkout
+9. `/account` — Customer account entry
+10. `/about` — Brand story
+11. `/contact` — Contact
+12. `/shipping-returns` — Shipping and returns
+13. `/privacy` — Privacy policy
+14. `/terms` — Terms and conditions
+
+Add:
+- Proper 404 page.
+- Error states.
+- Loading states.
+- Empty states.
+- Success states.
+
+Avoid dead links and nonfunctional CTAs.
+
+---
+
+# 8. PRODUCT DETAIL EXPERIENCE
+
+Each product page should provide:
+
+- High-resolution product gallery.
+- Multiple angles when available.
+- Interactive 3D view for supported products.
+- Product title.
+- Price in INR by default.
+- Description.
+- Available sizes.
+- Available colors.
+- Inventory-aware variant selection.
+- Add to cart.
+- Wishlist.
+- Size guidance.
+- Delivery information.
+- Returns information.
+- Related products.
+- Breadcrumb navigation.
+
+Use accessible controls.
+
+Do not allow unavailable variants to be purchased.
+
+Do not invent customer reviews, ratings, endorsements, or stock counts.
+
+---
+
+# 9. SHOPPING & CHECKOUT
+
+Implement working:
+
+- Product browsing.
+- Product search.
+- Category filters.
+- Price filters.
+- Sorting.
+- Size filters.
+- Color filters.
+- Wishlist.
+- Add to cart.
+- Remove from cart.
+- Quantity controls.
+- Cart totals.
+- Persistent cart behavior.
+- Checkout form.
+- Address validation.
+- Order summary.
+- Clear payment status.
+
+For demo mode:
+
+Allow a clearly labeled test-order submission without processing payments.
+
+For production mode:
+
+Design an integration-ready secure payment architecture.
+
+Payment requirements:
+- Never expose private payment keys.
+- Calculate and validate prices on the server.
+- Validate inventory before order confirmation.
+- Verify payment signatures or webhook events.
+- Prevent duplicate fulfillment.
+- Use idempotent processing where appropriate.
+- Never display a successful payment message without verified success.
+
+If payment credentials are unavailable, do not pretend that live payments work.
+
+---
+
+# 10. CONTENT MANAGEMENT & ADMIN
+
+Create a secure administrative architecture for:
+
+- Adding products.
+- Editing products.
+- Uploading images.
+- Changing prices.
+- Managing variants.
+- Updating inventory.
+- Managing collections.
+- Viewing orders.
+- Editing order statuses.
+- Managing homepage featured products.
+
+Implement authentication and authorization.
+
+Do not deploy an unsecured admin panel.
+
+Where hosted services or credentials are unavailable, build safe local/demo capability and clearly document what remains to enable production.
+
+---
+
+# 11. 3D INTERACTION ENGINE
+
+Use WebGL thoughtfully.
+
+Design premium interactions such as:
+
+- Interactive garment rotation.
+- Subtle cursor-responsive camera movement.
+- Scroll-linked fashion reveal.
+- Carefully animated product transitions.
+- Realistic garment material presentation where assets permit.
+- Soft studio lighting.
+- Cinematic depth.
+- Minimal loading transitions.
+
+Technical requirements:
+- Lazy-load large 3D assets.
+- Use compressed GLB/GLTF where appropriate.
+- Optimize textures.
+- Limit device pixel ratio.
+- Avoid unnecessary continuous rendering.
+- Handle lost WebGL context.
+- Provide static image fallback.
+- Honor `prefers-reduced-motion`.
+- Prioritize mobile performance and battery efficiency.
+
+3D must enhance product understanding and brand experience, not obstruct shopping.
+
+---
+
+# 12. DESIGN SYSTEM
+
+Build reusable components:
+
+- Navbar.
+- Mobile menu.
+- Search overlay.
+- Mega menu if justified.
+- Product card.
+- Product gallery.
+- 3D model viewer.
+- Collection banner.
+- Product filters.
+- Sort menu.
+- Size selector.
+- Color selector.
+- Quantity control.
+- Wishlist control.
+- Cart drawer.
+- Checkout form.
+- Newsletter form.
+- Footer.
+- Buttons.
+- Dialogs.
+- Toast messages.
+- Loading skeletons.
+- Empty states.
+- Error displays.
+
+Maintain consistent:
+- Spacing.
+- Typography.
+- Motion.
+- Contrast.
+- Focus indicators.
+- Responsive behavior.
+
+Create design tokens rather than duplicating visual values throughout the application.
+
+---
+
+# 13. PERFORMANCE & ACCESSIBILITY
+
+Performance objectives:
+
+Target on representative mobile and desktop audits:
+- Lighthouse Performance: 90+
+- Accessibility: 95+
+- Best Practices: 95+
+- SEO: 95+
+
+Aim for:
+- LCP ≤ 2.5 seconds.
+- INP ≤ 200 milliseconds.
+- CLS ≤ 0.1.
+
+These are goals, not results to claim without measurement.
+
+Use:
+- Modern image optimization.
+- Responsive image sizes.
+- Appropriate caching.
+- Code splitting.
+- Dynamic imports for heavy components.
+- Efficient fonts.
+- Reduced JavaScript.
+- Efficient loading priorities.
+
+Accessibility requirements:
+- Keyboard navigation.
+- Visible focus states.
+- Semantic headings.
+- Descriptive text alternatives.
+- Accessible forms.
+- Sufficient color contrast.
+- Screen-reader announcements where appropriate.
+- Reduced-motion support.
+- No keyboard traps.
+
+Target WCAG 2.2 AA where practical.
+
+---
+
+# 14. SEO & COMMERCIAL READINESS
+
+Implement:
+- Page-specific titles.
+- Meta descriptions.
+- Canonical URLs.
+- Open Graph metadata.
+- Sitemap.
+- Robots configuration.
+- Product structured data where accurate.
+- Collection metadata.
+- Search-friendly URLs.
+- Correct heading structure.
+- Appropriate internal links.
+
+Do not add fabricated reviews or SEO claims.
+
+Commercial considerations:
+- Clear value proposition.
+- Product discovery.
+- Fast add-to-cart.
+- Transparent pricing.
+- Consistent CTAs.
+- Trustworthy policies.
+- Mobile-friendly checkout.
+- Useful empty states.
+- Clear errors.
+- Conversion event tracking.
+
+Do not use manipulative fake scarcity or counterfeit trust badges.
+
+---
+
+# 15. CONTENT & MEDIA ASSETS
+
+Use high-quality, legally usable fashion media.
+
+Priority:
+1. Assets provided by the project owner.
+2. Properly licensed original or stock assets.
+3. Appropriately licensed generated assets.
+4. Explicitly identified temporary placeholders.
+
+Do not hotlink random copyrighted competitor images.
+
+Do not claim that sample products are physically in stock or manufactured by NAMECLOTHES.
+
+Create a coherent demo catalog containing at least 12 distinctive sample products across several categories.
+
+Each sample product should have:
+- Unique title.
+- Category.
+- Description.
+- Demo price.
+- Available variants.
+- Proper image references.
+- Consistent styling.
+- Relevant metadata.
+
+Use realistic product information, but clearly identify the catalog as illustrative until a client supplies actual inventory.
+
+---
+
+# 16. SECURITY & DATA RESPONSIBILITY
+
+Implement:
+- Server-side input validation.
+- Safe authentication.
+- Role-based admin access.
+- Secure environment variables.
+- Proper error handling.
+- Rate limiting where needed.
+- No secret keys in client bundles.
+- No sensitive information in logs.
+- Secure database access.
+- Correct payment verification.
+- Safe file upload handling.
+- Appropriate privacy and consent controls.
+
+Do not claim full legal compliance without jurisdiction-specific review.
+
+Use illustrative policy content marked for owner review before any actual commercial launch.
+
+---
+
+# 17. AUTOMATED QUALITY ASSURANCE
+
+Create a testing strategy that includes:
+
+## Unit Tests
+- Cart calculations.
+- Variant selection.
+- Search logic.
+- Filtering.
+- Validation.
+- Price formatting.
+
+## Integration Tests
+- Cart persistence.
+- Catalog retrieval.
+- Product data consistency.
+- Checkout validation.
+- Server endpoints.
+
+## End-to-End Tests
+Use Playwright if available.
+
+Test:
+1. Homepage loads.
+2. Collection navigation works.
+3. Search returns relevant products.
+4. Filters work.
+5. Product selection works.
+6. Available size can be selected.
+7. Product can be added to cart.
+8. Cart quantity updates.
+9. Cart item removal works.
+10. Checkout form validates input.
+11. Demo checkout works.
+12. Mobile navigation works.
+13. No major console errors.
+14. Important routes return expected responses.
+
+Test at representative viewport sizes:
+- 375 px.
+- 768 px.
+- 1440 px.
+
+Record which tests actually ran.
+
+Do not claim all tests passed if tools or environments prevented execution.
+
+---
+
+# 18. REVIEW SYSTEM & SCORING
+
+After each milestone, both CEO reviewers must assess the project.
+
+Score each category out of 10:
+
+- Visual design.
+- Brand originality.
+- User experience.
+- Mobile responsiveness.
+- 3D execution.
+- Accessibility.
+- Performance.
+- Functional completeness.
+- Security.
+- Conversion readiness.
+
+The reviewers must identify concrete problems rather than automatically awarding high scores.
+
+For scores under 8:
+- Explain the issue.
+- Propose an improvement.
+- Implement it where feasible.
+- Retest.
+- Record the result.
+
+Never present subjective reviewer scores as proof of financial valuation.
+
+Maintain:
+
+`docs/quality-scorecard.md`
+
+Include evidence for measurable claims.
+
+---
+
+# 19. DEVELOPMENT PHASES
+
+Execute these phases in sequence.
+
+## Phase 1 — Research & Strategy
+- Audit competitors.
+- Define brand.
+- Identify differentiation.
+- Document architecture.
+- Select assets.
+
+## Phase 2 — Design Foundation
+- Establish design system.
+- Build responsive layout.
+- Build navigation.
+- Set typography and motion standards.
+
+## Phase 3 — Homepage
+- Build cinematic hero.
+- Create editorial sections.
+- Implement featured collections.
+- Implement 3D showcase.
+
+## Phase 4 — Commerce
+- Build catalog.
+- Build search and filters.
+- Build product pages.
+- Build cart.
+- Build wishlist.
+- Build demo checkout.
+
+## Phase 5 — Operations
+- Implement suitable data persistence.
+- Build secured administration capabilities.
+- Prepare payment integration.
+- Prepare order handling.
+
+## Phase 6 — Optimization
+- Improve image loading.
+- Optimize 3D performance.
+- Refine mobile behavior.
+- Resolve accessibility issues.
+- Complete SEO setup.
+
+## Phase 7 — Two-CEO Review
+- Independent reviews.
+- Critical feedback.
+- Improvements.
+- Regression testing.
+
+## Phase 8 — Deployment
+- Production build.
+- Environment configuration.
+- Vercel deployment.
+- Smoke tests.
+- Public URL verification.
+
+## Phase 9 — Delivery
+- Complete documentation.
+- Summarize implementation.
+- List remaining production requirements.
+- Provide verified links.
+
+Avoid stopping at the first milestone.
+
+Continue through the complete implementation using the permissions, tools, and execution time available.
+
+---
+
+# 20. GITHUB & VERCEL
+
+Use the authenticated GitHub and Vercel integrations where available.
+
+Preferred repository:
+
+`nameclothes`
+
+Requirements:
+- Clean folder structure.
+- Meaningful commits.
+- README.
+- `.env.example`.
+- Appropriate `.gitignore`.
+- No committed secrets.
+- Documented setup.
+- Production build instructions.
+
+If creating a remote repository requires permissions or authorization, request only the necessary authorization.
+
+Deploy through Vercel.
+
+Verify:
+- Build succeeds.
+- Website opens publicly.
+- Homepage works.
+- Product pages work.
+- Cart works.
+- Client-side navigation works.
+- Required environment variables are configured.
+- No major runtime exceptions are present.
+
+Return the real public URL.
+
+Never invent a deployment URL or claim deployment before verification.
+
+---
+
+# 21. EXPECTED FILE STRUCTURE
+
+Use a scalable, maintainable structure similar to:
+
+nameclothes/
+- app/
+  - page.tsx
+  - shop/
+  - collections/
+  - product/
+  - cart/
+  - wishlist/
+  - checkout/
+  - account/
+  - about/
+  - contact/
+  - admin/
+  - api/
+- components/
+  - layout/
+  - ui/
+  - products/
+  - cart/
+  - three/
+  - forms/
+- lib/
+  - database/
+  - commerce/
+  - validation/
+  - utilities/
+- hooks/
+- store/
+- types/
+- public/
+  - images/
+  - models/
+  - fonts/
+- prisma/
+- tests/
+- docs/
+  - competitive-analysis.md
+  - architecture.md
+  - executive-reviews.md
+  - quality-scorecard.md
+  - deployment.md
+- README.md
+- .env.example
+
+Adjust the structure for actual architectural needs rather than blindly creating empty folders.
+
+---
+
+# 22. FINAL ACCEPTANCE CRITERIA
+
+The project is considered ready for the demo presentation only when:
+
+- The homepage is visually distinctive.
+- The website is mobile responsive.
+- The design system is consistent.
+- Product browsing works.
+- Product detail pages work.
+- Cart functionality works.
+- Checkout has a clearly functioning demo path.
+- 3D interaction works where supported.
+- Reduced-motion and 3D fallback behavior works.
+- Navigation has no dead ends.
+- Tests have been executed and results documented.
+- Major known defects are documented or fixed.
+- Vercel deployment has been verified.
+- The GitHub repository is available if authorized.
+- The two executive reviewers have completed their documented reviews.
+
+Do not confuse a demo-ready product with an actual live commercial store.
+
+A production commerce launch additionally requires appropriate real inventory, payment credentials, legal policies, security review, operational processes, and merchant configuration.
+
+---
+
+# 23. FINAL DELIVERY FORMAT
+
+At the end, provide:
+
+**A. Live Website**
+Verified Vercel URL.
+
+**B. GitHub Repository**
+Verified repository URL, if created.
+
+**C. Features Implemented**
+Clearly distinguish working functionality from demo-only functionality.
+
+**D. Design System**
+Brand colors, typography, components, and motion principles.
+
+**E. Two-CEO Review**
+Summary of both reviewers' findings, improvements, and final assessments.
+
+**F. Quality Assurance**
+Tests executed, pass/fail results, limitations, and measured performance where available.
+
+**G. Production Readiness**
+What is ready and what still requires credentials, assets, configuration, or business decisions.
+
+**H. Client Presentation**
+Provide a concise demonstration script explaining the business value and differentiating features.
+
+**I. Pricing Scope**
+Describe what additional work or customization could justify a ₹2–4 lakh project proposal without promising that any specific buyer will pay that amount.
+
+---
+
+# 24. OPERATING PRINCIPLES
+
+- Execute rather than merely discuss.
+- Research before making major design decisions.
+- Prioritize beautiful, usable, functional software.
+- Keep the brand original.
+- Avoid unnecessary dependencies.
+- Prioritize accessibility and speed.
+- Maintain security boundaries.
+- Be transparent about missing integrations.
+- Never invent completed work.
+- Never fabricate tests, reviews, credentials, or deployment results.
+- Use the two executive reviewer roles to improve decisions continuously.
+- Resolve reasonable implementation decisions independently.
+- Ask for user input only when required for permissions, account access, payments, or consequential business decisions.
+- Deliver the best verified working result possible with available tools.
+
+**START NOW.**
+
+Begin with competitor research and technical feasibility assessment, then proceed directly to implementation, cross-review, testing, and Vercel deployment.
+
+Your goal is to build a distinctive, client-presentable luxury fashion commerce experience—not just generate code or describe a future project.
